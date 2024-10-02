@@ -1,13 +1,13 @@
 ---
 title: "Rich Content"
 date: 2021-04-03T19:53:33+05:30
-draft: false
+draft: true
 author: "Gurusabarish"
 tags:
   - Rich content
   - Sample
   - example
-image: /images/post.jpg
+image: https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg
 description: ""
 toc: 
 ---
