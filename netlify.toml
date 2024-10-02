@@ -1,9 +1,7 @@
 [build]
-publish = "public"
-command = 'echo -e "\ngoogleAnalytics: $GOOGLE_ANALYTICS \ndisqusShortname: $DISQUS_SHORTNAME \n" >> hugo.yaml && hugo --gc --minify'
+    command = 'echo -e "\ngoogleAnalytics: $GOOGLE_ANALYTICS \ndisqusShortname: $DISQUS_SHORTNAME \n" >> hugo.yaml && hugo --gc --minify'
+    functions = "netlify/functions"
+    publish = "public"
 
-[context.production.environment]
-HUGO_VERSION = "0.92.0"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
-HUGO_THEME = "repo"
+[build.environment]
+  HUGO_VERSION = "0.112.0"
